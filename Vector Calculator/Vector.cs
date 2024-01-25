@@ -18,6 +18,11 @@ namespace Vector_Calculator
             this.z = z;
         }
 
+        public Vector(float x)
+        {
+            this.x = x;
+        }
+
         public override string ToString()
         {
             return $"<{x}, {y}, {z}>";
@@ -48,8 +53,7 @@ namespace Vector_Calculator
 
         public static Vector Subtract(Vector v1, Vector v2)
         {
-            // ADD CODE HERE, THEN REMOVE BELOW LINE
-            throw new NotImplementedException();
+            return new Vector(v1.x - v2.x, v1.y - v2.y, v1.z - v2.z);
         }
 
         public static Vector Scale(Vector v)

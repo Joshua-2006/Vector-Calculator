@@ -11,6 +11,7 @@ namespace Vector_Calculator
             
             
             Console.WriteLine(Vector.Add(test1, test2));
+            Console.WriteLine(Vector.Subtract(test1, test2));
         }
     }
 }
