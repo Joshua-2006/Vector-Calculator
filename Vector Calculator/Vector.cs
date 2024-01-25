@@ -37,8 +37,7 @@ namespace Vector_Calculator
 
         public static Vector Add(Vector v1, Vector v2)
         {
-            // ADD CODE HERE, THEN REMOVE BELOW LINE
-            throw new NotImplementedException();
+            return new Vector(v1.x + v2.x, v1.y + v2.y, v1.z + v2.z);
         }
 
         public static Vector Negate(Vector v)
