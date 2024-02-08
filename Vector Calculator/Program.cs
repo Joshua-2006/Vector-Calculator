@@ -11,7 +11,14 @@ namespace Vector_Calculator
             
             
             Console.WriteLine(Vector.Add(test1, test2));
-            Console.WriteLine(Vector.Subtract(test1, test2));
+            Console.WriteLine(Vector.Scale(test1, 3));
+            Console.WriteLine(test1.GetMagnitude());
+            Console.WriteLine(test2.GetMagnitude());
+            Console.WriteLine(Vector.Normalize(test2));
+            Console.WriteLine(Vector.DotProduct(test1, test2));
+            Console.WriteLine(Vector.CrossProduct(test1, test2));
+            Console.WriteLine(Vector.AngleBetween(test1, test2));
+            Console.WriteLine(Vector.ProjectOnto(test1, test2));
         }
     }
 }
